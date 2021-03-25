@@ -14,18 +14,16 @@
         let count = 0
         let count2 = 0
         do {
-            do {
-                message += "*"
-                count++
-            } while (count < 10)
+            message += "+"
+            count++
+        } while (count < 20)
+        document.write(message)
+        document.write("<br/>")
+        while (count2 < 4) {
             count2++
             document.write(message)
             document.write("<br/>")
-        } while (count2 < 4)
-        document.write(message)
-
-
-
+        }
     </script>
 </body>
 
